@@ -9,9 +9,6 @@ export default async function Page() {
     redirect("/login")
   }
 
-  console.log(user);
-  
-  
   return (
     <div className='p-6'>
       <h1>mypage</h1>
