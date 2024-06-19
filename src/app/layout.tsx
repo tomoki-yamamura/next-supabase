@@ -27,6 +27,9 @@ export default function RootLayout({
           <Button asChild variant={"ghost"} className="font-bold text-xl">
             <Link href="/about">About</Link>
           </Button>
+          <Button asChild variant={"ghost"} className="font-bold text-xl">
+            <Link href="/mypage">Mypage</Link>
+          </Button>
         </header>
         {children}
         <footer className="h-16 sticky top-full border-t px-6 flex items-center">footer</footer>
