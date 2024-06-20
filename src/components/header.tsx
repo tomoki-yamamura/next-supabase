@@ -12,7 +12,7 @@ export default async function Header() {
         <Link href="/">Header</Link>
       </Button>
       <Button asChild variant={"ghost"} className="font-bold text-xl">
-        <Link href="/about">About</Link>
+        <Link href="/items">Lists</Link>
       </Button>
       <Button asChild variant={"ghost"} className="font-bold text-xl">
         <Link href="/mypage">Mypage</Link>
